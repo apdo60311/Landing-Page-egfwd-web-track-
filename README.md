@@ -1,6 +1,6 @@
 # Landing Page
 
-*** page consists of five sections
+### page consists of five sections
 
 ### Sections nav to navigate through the sections
 
