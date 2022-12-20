@@ -26,6 +26,12 @@ document.onscroll = () => {
 };
 document.getElementById('topBtn').style.visibility = 'hidden';
 
+document.querySelectorAll('a').forEach((item) => {
+    item.addEventListener('click',(e) => {
+        document.getElementById(item.getAttribute('href').replace("#","")).scrollIntoView({behavior: 'smooth'});
+        e.preventDefault();
+    })
+});
 
 });
 
